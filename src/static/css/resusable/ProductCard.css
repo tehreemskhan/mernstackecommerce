@@ -1,0 +1,39 @@
+.product_card_container {
+    width: 20%;
+    height: 35vh;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.image_div {
+    height: 80%;
+}
+.image_1 {
+    background-image: url("../../images/clothes/leather_jacket.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image_2 {
+    background-image: url("../../images/clothes/shirt1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image_3 {
+    background-image: url("../../images/clothes/shoe1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image_4 {
+    background-image: url("../../images/clothes/watch1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

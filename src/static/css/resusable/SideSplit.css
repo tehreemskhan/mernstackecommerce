@@ -1,0 +1,114 @@
+
+.sideSplitContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 50px;
+}
+.sideSplit_image_div {
+    height: 80vh;
+    background-image: url("../../images/summer_style.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.sideSplit_text_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sideSplit_text {
+    width: 80%;
+    height: 70%;
+    text-shadow: 5px 10px #D0E3C4;
+}
+.sideSplit_text button {
+    transform: rotate(-10deg) translate(200px, 50px);
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+.sideSplit_message_part_one {
+    font-size: 70px;
+    transform: rotate(-10deg);
+}
+
+
+
+@media (min-width: 1281px) {
+  
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .sideSplit_text button {
+      transform: rotate(-10deg) translate(50px, 50px);
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .sideSplit_message_part_one {
+        font-size: 40px;
+    }
+    .sideSplit_text button {
+        transform: rotate(-10deg) translate(30px, 50px);
+        padding: 20px;
+        font-size: 20px;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .sideSplit_message_part_one {
+      font-size: 40px;
+  }
+  .sideSplit_text button {
+      transform: rotate(-10deg) translate(30px, 50px);
+      padding: 20px;
+      font-size: 20px;
+
+  }
+
+  
+
+
+}

@@ -1,0 +1,129 @@
+.footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #503047;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.footer_div1, .footer_div2 {
+    width: 45%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_footer_list li {
+    list-style: none;
+    margin-top: 20px;
+}
+.first_footer_list a {
+    color: white;
+    text-decoration: none;
+}
+.first_footer_list a:hover {
+    color: #ADC698;
+}
+
+.second_footer_list li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.second_footer_list a {
+    color: white;
+    text-decoration: none;
+}
+.second_footer_list a:hover {
+    color: #ADC698;
+}
+
+
+.footer_div1 div {
+    width: 80%;
+    height: 80%;
+}
+.both_divs {
+    width: 80%;
+    height: 80%;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .footer_container {
+        margin-top: 50px;
+        height: 40vh;
+    }
+    .footer_div1 {
+      margin-top: -40px;
+    }
+    .footer_div2 {
+      margin-top: -40px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .footer_container {
+      margin-top: 50px;
+    }
+  
+  }

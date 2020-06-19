@@ -1,0 +1,134 @@
+.discount_container {
+    margin-top: 100px;
+    height: 60vh;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-image: url("../../images/sale_background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discount_message_container {
+    color: white;
+    width: 70%;
+    height: 70%;
+    
+}
+
+.message_part_one {
+    font-size: 80px;
+    transform: rotate(-10deg);
+    text-shadow: 5px 10px #ADC698;
+}
+
+.message_part_two {
+    font-size: 50px;
+    margin-left: 85px;
+    transform: rotate(-10deg);
+    text-shadow: 0px 10px #ADC698;
+}
+.message_part_three {
+    margin-top: 40px;
+    font-size: 50px;
+    transform: rotate(-10deg);
+    text-align: center;
+    text-shadow: 3px 10px #ADC698;
+}
+
+.all::after {
+    content: "a",
+    translate(25px 25px);
+    color: red;
+
+}
+
+
+@media (min-width: 1281px) {
+  
+    body {
+        
+        
+    }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    body {
+        
+        
+    }
+    
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    
+    
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+   
+    
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .message_part_one {
+        font-size: 30px;
+    }
+    .message_part_two {
+        font-size: 30px;
+        margin-left: 15px;
+    }
+    .message_part_three {
+        font-size: 40px;
+        margin-top: 15px;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .message_part_one {
+      font-size: 30px;
+  }
+  .message_part_two {
+      font-size: 30px;
+      margin-left: 25px;
+  }
+  .message_part_three {
+      font-size: 40px;
+      margin-top: 10px;
+  }
+  }

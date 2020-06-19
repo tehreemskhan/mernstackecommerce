@@ -1,0 +1,178 @@
+
+.login_main_container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/login_background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.login_container {
+    width: 70%;
+    height: 70%;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login_title_container {
+    width: 100%;
+    height: 20%;
+}
+
+.login_title_container h1 {
+    font-size: 60px;
+    text-align: center;
+}
+.login_form_container {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form_group {
+    margin: 10px;
+}
+.submit_form_group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit_button {
+    padding: 10px;
+    outline: none;
+    background: none;
+    border:solid gold 1px;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.submit_button:hover {
+    padding: 15px;
+    margin-top: 10px;
+}
+.input {
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    outline: none;
+    border-bottom: 1px solid gold;
+    color: white;
+}
+.user_input:hover {
+    transition: 0.3s ease-out;
+    margin-bottom: 10px;
+}
+.password_input:hover {
+    transition: 0.3s ease-in-out;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.email_input:hover {
+    transition: 0.3s ease-in-out;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.number_input:hover {
+    transition: 0.3s ease-in-out;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.create_account_link {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.form_back_button {
+    margin-left: 5px;
+}
+
+/*MOBILE VERSION*/
+
+@media (min-width: 1281px) {
+  
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+        
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .input {
+        width: 200px;
+        padding: 10px;
+    }
+    .login_title_container h1 {
+        font-size: 40px;
+    }
+    .submit_button {
+        padding: 5px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .input {
+        width: 200px;
+        padding: 10px;
+    }
+    .login_title_container h1 {
+        font-size: 40px;
+    }
+    .submit_button {
+        padding: 5px;
+    }
+    .create_account_link {
+        font-size: 12px;
+    }
+  }

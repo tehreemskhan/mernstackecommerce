@@ -1,0 +1,16 @@
+.admin_main_container {
+    height: 100vh;
+    width: 100%;
+}
+.admin_main_container h1 {
+    padding: 30px;
+    text-align:center;
+}
+.backButtonContainer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

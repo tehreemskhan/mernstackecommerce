@@ -1,0 +1,16 @@
+.sidebar_side_item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.sidebar_title {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.checkbox_box {
+    padding: 25px;
+}

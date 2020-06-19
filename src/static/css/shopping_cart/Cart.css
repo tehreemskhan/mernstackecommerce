@@ -1,0 +1,264 @@
+.shopping_cart_main_container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopping_cart_part_one {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    
+}
+.cart_main_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paypal_container {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top_panel {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.top_panel_part_one {
+    width: 50%;
+    height: 100%;
+}
+.item_name p {
+    margin-left: 10px;
+    font-size: 16px;
+}
+.item_name p:nth-child(2) {
+    color: green;
+}
+.top_panel_part_one p {
+    text-align: center;
+}
+.top_panel_part_two {
+    width: 25%;
+    height: 100%;
+}
+.top_panel_part_two p {
+    text-align: right;
+}
+.top_panel_part_three {
+    width: 25%;
+    height: 100%;
+}
+
+.top_panel_part_three p {
+    text-align: right;
+}
+
+.inner_panel {
+    height: 10%;
+    width: 100%;
+}
+.cart_item {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.cart_image {
+    height: 100%;
+    width: 20%;
+    background-size: cover;
+    background-position: center;
+    
+}
+.item_name {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    flex-direction: column;
+}
+
+.qty_tag_container {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.qty_tag_container input {
+    width: 30%;
+    text-align: center;
+}
+.price_tag_container {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 15px;
+}
+.remove_container {
+    margin-left: 20px;
+}
+.shopping_cart_info_part1_container {
+    width: 90%;
+    height: 50%;
+}
+.shopping_cart_part_two {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+.final_price_div_container {
+}
+.final_cart_item {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.price_total_container {
+
+}
+.final_cart_item p:nth-child(2) {
+    text-align: right;
+}
+.shopping_cart_part_two_inner {
+    width: 70%;
+    height: 60%;
+}
+.price_div {
+    display: flex;
+    justify-content: space-between;
+}
+.price_div p:nth-child(2) {
+    
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .shopping_cart_main_container {
+    }
+    .shopping_cart_info_part1_container h1 {
+        font-size: 30px;
+    }
+    .shopping_cart_part_two_inner {
+        margin-top: 100px;
+    }
+    .top_panel_part_one p {
+        font-size: 16px;
+    }
+    .shopping_cart_part_two_inner h3 {
+        font-size: 19px;
+    }
+    .qty_tag_container input {
+        position: relative;
+        right: 40px;
+        bottom: 5px;
+    }
+    .top_panel {
+        display:none;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .shopping_cart_main_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .shopping_cart_part_two_inner h3 {
+        display: none;
+    }
+    .shopping_cart_part_two_inner hr {
+        display: none;
+    }
+    .shopping_cart_part_one {
+        width: 100%;
+    }
+    .top_panel {
+        display: none;
+    }
+    .item_loop {
+        display: none;
+    }
+    .shopping_cart_part_two {
+        width: 100%;
+    }
+    .shopping_cart_info_part1_container h1 {
+        font-size: 25px;
+    }
+    .qty_tag_container input {
+        position: relative;
+        right: 40px;
+    }
+  }

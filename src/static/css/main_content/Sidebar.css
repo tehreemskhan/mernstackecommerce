@@ -1,0 +1,5 @@
+.sidebar_container {
+    width: 35%;
+    position: sticky;
+    height: 100vh;
+}

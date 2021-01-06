@@ -9,7 +9,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "array-find-duplicates": "^2.0.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "body-parser": "^1.19.0",
     "bootstrap": "^4.5.0",
     "concurrently": "^5.2.0",
